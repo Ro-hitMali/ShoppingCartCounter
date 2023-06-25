@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #f3bc56;
+}
+.card-container {
+  background-color: #c7edf7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.product-count {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.add-button,
+.remove-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.add-button:hover,
+.remove-button:hover {
+  background-color: rgba(100, 198, 237, 0.712);
+}
